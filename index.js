@@ -20,11 +20,6 @@ const similarity = testwithActive(both_hands_down, both_hands_up_90, "hands-x");
 *************************************************************************
  */
 
-const { both_down, right_leg_up, left_leg_up } = require('./tests/legs/t1');
-const { both_hands_down, both_hands_up_90, left_hand_90, right_hand_90 } = require('./tests/hands/t1');
-const { testLefts, testRights, testwithActive } = require('./tests/index');
-const similarity = testwithActive(both_hands_down, both_hands_up_90, "hands-x");
-
 // Load env vars
 dotenv.config({ path: './config/.env' });
 
